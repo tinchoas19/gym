@@ -1,3 +1,4 @@
+import { FirstPage } from './../pages/first/first';
 import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
@@ -14,7 +15,7 @@ import { MembresiasPage } from '../pages/membresias/membresias';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = LoginPage;
+  rootPage: any = FirstPage;
 
   pages: Array<{title: string, component: any}>;
 

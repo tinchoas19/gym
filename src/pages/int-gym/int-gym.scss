@@ -1,0 +1,16 @@
+page-int-gym {
+    .rating{
+        margin: 0 auto;
+    }
+    .ionic3-star-rating .button{
+        width: 20px !important;
+        height: 20px !important;
+        padding: 0px !important;
+    }
+    .ionic3-star-rating .button ion-icon{
+        font-size: 20px !important;
+    }
+    ion-row{
+        margin-top: 5%;
+    }
+}
